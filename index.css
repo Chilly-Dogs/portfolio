@@ -1,0 +1,346 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	background-color: rgb(255, 124, 94);
+}
+img
+{
+	display: block;
+	margin: auto;
+	position: relative;
+}
+#grass-block
+{
+	top:30px;
+	width:100%;
+	max-width:80px;
+	height:60px;
+}
+#piston1
+{
+	top:0px;
+	width:100%;
+	max-width:80px;
+	height:80px;
+	display: block;
+
+}
+#piston2
+{
+	top:0px;
+	width:100%;
+	max-width:80px;
+	height:80px;
+	display:none;
+}
+
+
+
+h1
+{
+	font-family: Oswald;
+	text-align: center;
+	position: relative;
+}
+p
+{
+	font-family: Oswald;
+	position: relative;
+	text-align: center;
+}
+#name-header
+{
+	margin-top:20px;
+	margin-bottom:-30px;
+}
+#aspiring-developer
+{
+	color:white;
+	font-size:21px;
+	margin-bottom: 70px;
+}
+
+
+#looking-for-job
+{
+	
+	color:white;
+	font-size:30px;
+	word-spacing: 4px;
+	background-color: black;
+	max-width:300px;
+
+	margin: 0 auto;
+
+	animation-name: looking-for-job-animation;
+	animation-delay: -2s;
+	animation-direction: normal;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+#why-hire
+{
+	text-align: center;
+	color:white;
+	background-color: black;
+	margin: 0 auto;
+	max-width:200px;
+	font-family: Oswald;
+	position: relative;
+	
+
+	animation-name: why-hire-me-animation;
+	animation-delay: -2s;
+	animation-direction: normal;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+
+}
+
+
+
+@keyframes looking-for-job-animation
+{
+	10% {left:-200px;opacity: 0;}
+	20% {left:-150px;opacity: 0.2;}
+	30% {left:-100px;opacity: 0.4;}
+	40% {left:-50px;opacity: 0.6;}
+	50%{left:0px;opacity: 1;}
+	100%{margin:0 auto;}
+}
+@keyframes why-hire-me-animation
+{
+	10% {right:-200px;opacity: 0;}
+	20% {right:-150px;opacity: 0.2;}
+	30% {right:-100px;opacity: 0.4;}
+	40% {right:-50px;opacity: 0.6;}
+	50%{right:0px;opacity: 1;}
+	100%{margin:0 auto;}
+}
+
+
+
+
+#years-of-experience
+{
+	
+	top:60px;
+	color:white;
+	margin: auto;
+	background-color: black;
+	max-width:420px;
+	font-size:25px;
+	font-weight: bold;
+}
+#never-faced
+{
+	top:60px;
+
+	background-color: black;
+	max-width: 800px;
+	margin: auto;
+	color:red;
+	font-size:23px;
+	font-weight:bold;
+}
+#previous-examples
+{
+	
+	top:170px;
+
+	color:white;
+	background-color: black;
+	max-width: 330px;
+	margin: auto;
+	font-size:30px;
+}
+#pet-sitter-header
+{
+	top:210px;
+	color:black;
+	font-size:30px;
+	letter-spacing: 1px;
+}
+#pet-sitter-image
+{
+	width:100%;
+	max-width: 700px;
+	height:400px;
+	top:180px;
+}
+#pet-sitter-text
+{
+	color:white;
+	top:180px;
+	font-size:23px;
+	background-color: black;
+	margin:auto;
+	max-width: 600px;
+}
+
+
+#todd-painting-header
+{
+	top:210px;
+	color:black;
+	font-size:30px;
+	letter-spacing: 1px;
+}
+#todd-painting-image
+{
+	width:100%;
+	max-width: 700px;
+	height:400px;
+	top:180px;
+}
+#todd-painting-text
+{
+	color:white;
+	top:195px;
+	font-size:23px;
+	background-color: black;
+	margin:auto;
+	max-width: 570px;
+}
+
+
+#personal-website-header
+{
+	top:230px;
+	color:black;
+	font-size:30px;
+	letter-spacing: 1px;
+}
+#personal-website-image
+{
+	width:100%;
+	max-width: 700px;
+	height:400px;
+	top:200px;
+}
+#personal-website-text
+{
+	color:white;
+	top:200px;
+	font-size:23px;
+	background-color: black;
+	margin:auto;
+	max-width: 570px;
+}
+
+
+#sideshow-header
+{
+	top:230px;
+	color:black;
+	font-size:30px;
+	letter-spacing: 1px;
+}
+#sideshow-image
+{
+	width:100%;
+	max-width: 700px;
+	height:400px;
+	top:200px;
+}
+#sideshow-text
+{
+	color:white;
+	top:200px;
+	font-size:23px;
+	background-color: black;
+	margin:auto;
+	max-width: 570px;
+}
+
+#email
+{
+	color:yellow;
+	top:330px;
+	font-size:23px;
+	background-color: black;
+	margin:auto;
+	max-width: 260px;
+}
+
+
+
+
+
+@media only screen and (max-width:412px)
+{
+	#looking-for-job
+	{
+		font-size:25px;
+		max-width: 250px;
+	}
+	#why-hire
+	{
+		font-size:14px;
+		max-width: 170px;
+	}
+
+
+	#years-of-experience
+	{
+		font-size:22px;
+		max-width: 365px;
+	}
+	#never-faced
+	{
+		font-size:18;
+	}
+
+
+	#pet-sitter-image
+	{
+		max-width: 380px;
+		height:360px;
+	}
+	#pet-sitter-text
+	{
+		font-size:19px;
+		max-width: 330px;
+	}
+
+
+	#todd-painting-image
+	{
+		max-width:380px;
+		height:360px;
+	}
+	#todd-painting-text
+	{
+		font-size:19px;
+		max-width:330px;
+	}
+
+
+	#personal-website-image
+	{
+		max-width:380px;
+		height:360px;
+	}
+	#personal-website-text
+	{
+		font-size:19px;
+		max-width:330px;
+	}
+
+
+	#sideshow-image
+	{
+		max-width:380px;
+		height:360px;
+	}
+	#sideshow-text
+	{
+		font-size:19px;
+		max-width:330px;
+	}
+
+
+
+
+}
